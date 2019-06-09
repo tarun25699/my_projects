@@ -1,0 +1,223 @@
+
+
+.top_right{
+	color: rgb(255,0,140);
+	font-style: bold;
+	text-shadow:1px 1px orange;
+	text-decoration: none;
+	font-weight: 100px;
+	padding: 5px;
+	margin: 8px;
+	opacity:0.9; 
+	
+
+}
+.top_right:hover{
+	text-decoration: underline;
+	border: 1px solid white;
+	border-radius: 9px;
+	background-color: rgb(255,0,140);
+	color:white;
+	padding:10px;
+	transition: 0.5s;
+	
+}
+.whole_top_right{
+	margin:-125px 20px 0px 0px;
+	float:right;
+
+}
+
+
+.heading {
+	width:90%;
+	margin: -45px 25px 95px 65px;
+	font-weight: 90px;
+	padding: 0px 0px 0px 20px;
+	font-size: 250%;
+	text-shadow: 1px 1px white, 0 0 15px white, 0 0 10px orange;
+}
+.heading_link{
+	text-decoration: none;
+	color:rgb(255,0,140);
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 2950px;
+  top: 0;
+  left: 0;
+ background-color:#111;
+ opacity: 0.9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: underline;
+  font-size: 25px;
+  color: rgb(255,0,140);
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidepanel a:hover {
+  text-decoration: underline;
+	border: 1px solid white;
+	border-radius: 9px;
+	background-color: rgb(255,0,140);
+	color:white;
+	padding:10px;
+	text-align: auto;
+}
+
+.sidepanel ,.closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 10px;
+ 	margin: 30px 0px 8px 45px;
+ 	width: 30px;
+ 	height: 25px;
+  background-color: rgb(255,0,140);
+  color: white;
+  border-radius: 9px;
+  border: none;
+
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+.top{
+	background-image: url("c1.png");
+	margin: -10px 0px 0px -10px;
+	height: 500px;
+	width: 101.2%;
+}
+.footer{
+	width:101.2%;
+	margin: 0px 0px 0px -10px;
+}
+
+}
+@media screen and (max-height: 450px) {
+  .sidepanel {padding-top: 15px;}
+  .sidepanel a {font-size: 18px;}
+}
+@media screen and (max-width: 600px) {
+  .whole_top_right a:not(:first-child) {display: none;}
+  .whole_top_right a.icon {
+    float: right;
+    display: block;
+  
+  }
+  .btn1{
+
+  }
+  .top{
+  	height:700px;
+  	width:100%;
+
+  }
+  .footer{
+  	width:100%;
+  }
+
+}
+
+
+.btn1{
+	height:60px ;
+	width: 95px;
+	border-radius:15px ;
+	border:2px solid white;
+	font-size: 15px;
+	opacity: 0.1;
+	background-color: rgb(255,0,75);
+	color: white;
+	margin: -100px 50px 0px 80px;
+}
+.btn2{
+		height:60px ;
+	width: 95px;
+	border-radius:15px ;
+	border:2px solid white;
+	font-size: 15px;
+	opacity: 0.1;
+	background-color: rgb(255,0,75);
+	color: white;
+
+}
+
+.btn1:hover{
+	font-size:20px;
+	
+	transition: 0.5s;
+
+}
+
+.btn2:hover{
+	font-size:20px;
+	
+	transition: 0.5s;
+
+}
+.wewe{
+	background-color: none;
+	color:white;
+	margin: -30px 0px 0px 30px;
+}
+.logo{
+
+}
+.btn1,.btn2{
+ 
+  background: red;
+  position: relative;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {top: 0px;}
+  to {top: 150px; background-color:  rgb(255,0,75);opacity: 0.9;}
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 150px; background-color:  rgb(255,0,75); opacity:0.9;}
+}
+
+@media screen and (max-width:500px){
+	.sidepanel{
+		height:1250px;
+	}
+}
+
+.dev
+{
+
+}
+@media screen and (max-width:500px){
+	.dev{
+		font-size:14px;
+	}
+}
+@media screen and (max-width:1000px){
+	.logo{
+		display: none;
+	}

@@ -1,0 +1,207 @@
+body{
+	background-image:url("c1.png");
+}
+.content{
+	color: white;
+	font-size: 20px;
+	margin:-160px 90px 0px 300px;
+	line-height: 40px;
+}
+.image{
+	margin: 100px 0px 0px 120px;
+}
+.contact{
+background-color: rgb(255,0,140);
+	color:white;
+	width:90px;
+	height:30px;
+	font-size: 15px;
+border-radius: 5px;
+}
+.contact:hover{
+	font-size:19px;
+	transition: 0.3s;
+	background-color: white;
+	color:rgb(255,0,140);
+}
+.mailbox{
+	height:25px;
+	width:250px;
+	border-radius: 5px;
+	border: 1px solid orange;
+}
+label{
+	color:black;
+}
+
+p{
+	font-size: 50px;
+}
+
+
+
+
+.heading {
+margin: -80px 25px 95px 45px;
+  font-weight: 90px;
+  padding: 0px 0px 0px 20px;
+  font-size: 170%;
+  color:rgb(255,0,140);
+  text-shadow: 1px 1px white, 0 0 1px white, 0 0 10px orange;
+  }
+.heading_link{
+	text-decoration: none;
+	
+}
+
+
+@media screen and (max-width: 900px) {
+  .whole_top_right a:not(:first-child) {display: none;}
+  .whole_top_right a.icon {
+    float: right;
+    display: block;
+    
+  }
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0px;
+  left: 00px;
+ background-color:#111;
+ opacity: 0.9;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: underline;
+  font-size: 25px;
+  color: rgb(255,0,140);
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidepanel a:hover {
+  text-decoration: underline;
+	border: 1px solid white;
+	border-radius: 9px;
+	background-color: rgb(255,0,140);
+	color:white;
+	padding:10px;
+	text-align: auto;
+}
+.closebtn{
+	position: absolute;
+}
+
+.sidepanel ,.closebtn {
+  
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+ font-size: 10px;
+  margin: 35px 0px 8px 23px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255,0,140);
+  color: white;
+  
+  border-radius: 9px;
+
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+.login{
+	color:rgb(255,0,140);
+
+}
+.login:hover{
+	color:white;
+}
+@media screen and (max-height: 450px) {
+  .sidepanel {padding-top: 10px;}
+  .sidepanel a {font-size: 18px;}
+}
+
+p {
+  transition: margin 0s;
+  padding: 16px;
+}
+
+
+
+
+.top_right{
+	color: rgb(255,0,140);
+	font-style: bold;
+	text-shadow:1px 1px orange;
+	text-decoration: none;
+	font-weight: 100px;
+	padding: 5px;
+	margin: 8px;
+	opacity:0.9; 
+	font-size: 16px;
+	
+
+}
+.top_right:hover{
+	text-decoration: underline;
+	border: 1px solid white;
+	border-radius: 9px;
+	background-color: rgb(255,0,140);
+	color:white;
+	padding:10px;
+	transition: 0.5s;
+	
+}
+.whole_top_right{
+	margin:49px 20px 0px 0px;
+	float:right;
+
+}
+/* Style the tab */
+.tab {
+  float: left;
+  
+  opacity: 0.6;
+  width: 25%;
+  position: absolute;
+  height: 100px;
+  margin: 14px 0px 0px -10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: rgb(255,0,180);
+  padding: 22px 16px;
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 19px;
+  text-shadow: 1px 0px orange;
+  border: 1px solid #ccc;
+  background-color: black;
+}
+
+@media and screen(max-width:500px){
+  .content{
+    width:50%;
+  }
+}
